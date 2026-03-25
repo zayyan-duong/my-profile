@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Zayyân Duong — Hardware & Web | Profile</title>
+    <meta name="description" content="Profil de Zayyân Duong — étudiant à l’ICN Business School (La Défense), passionné de hardware & gaming, montage et optimisation de PC, en apprentissage du développement web.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Zayyân Duong — Profile">
+    <meta property="og:description" content="ICN (La Défense) — Hardware • Gaming • Web.">
+    <meta property="og:image" content="./images/photo-zayyan.jpg">
+    <meta property="og:site_name" content="Zayyân Duong">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <header class="hero">
+      <div class="container hero__grid">
+        <div class="hero__left">
+          <img class="avatar img-circle" id="profile-picture"
+     src="./images/photo-zayyan.jpg"
+     alt="Photo de profil de Zayyân Duong">
+
+          <div class="hero__intro">
+            <p class="badge"> étudiant à ICN BS & Alternant chez CNH Industrial </p>
+
+            <h1>Hello, I am <span class="accent">Zayyân Duong</span> 👋</h1>
+
+            <p class="subtitle">
+              Étudiant en Bachelor à <strong>ICN Business School (campus La Défense)</strong>.
+              Passionné par le <strong>hardware</strong> et l’univers du <strong>PC gaming</strong>,
+              actuellement en apprentissage du <strong> chez CNH INDUSTRIAL </strong>.
+            </p>
+
+            <div class="actions">
+              <a class="btn btn--primary" href="mailto:zayyan.duong@icn-artem.com">Me contacter</a>
+              <a class="btn" href="https://fr.gymshark.com/" target="_blank" rel="noopener noreferrer">
+                Site que j’aime
+              </a>
+            </div>
+
+            <ul class="highlights" id="profile-highlights">
+              <li><strong>Spécialité :</strong> montage & optimisation de PC gaming</li>
+              <li><strong>Compétences :</strong> diagnostic, assemblage, OS, tests stabilité/perf</li>
+              <li><strong>Soft skills :</strong> relation client, conseil, négociation, gestion de projet</li>
+            </ul>
+          </div>
+        </div>
+
+        <aside class="hero__card">
+          <h2>À propos</h2>
+          <p>
+            Depuis plusieurs années, je mène une activité personnelle autour de l’achat,
+            la construction, la réparation et la revente de <strong>PC gaming</strong>.
+          </p>
+
+          <div class="chips">
+            <span class="chip chip-highlight" id="featured-skill">Hardware</span>
+            <span class="chip">Gaming</span>
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">Customer care</span>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main class="container">
+
+      <div class="card-white">
+        <section class="section">
+          <h2>Hobbies</h2>
+          <p>
+            J’aime comparer des composants, construire des configurations sur mesure,
+            optimiser les performances et améliorer l’expérience utilisateur.
+          </p>
+        </section>
+      </div>
+
+      <div class="card-white">
+        <section class="section">
+          <h2>Passions</h2>
+          <p>
+            Le hardware, l’univers du gaming et la curiosité technique :
+            comprendre comment les technologies fonctionnent et rester à jour.
+          </p>
+        </section>
+      </div>
+
+      <div class="card-white">
+        <section class="section">
+          <h2>Projects</h2>
+          <p>
+            Construire une page profil <strong>propre</strong> et <strong>professionnelle</strong>
+            en HTML/CSS, puis l’améliorer progressivement.
+          </p>
+        </section>
+      </div>
+
+      <div class="card-white">
+        <section class="section two-cols">
+          <div>
+            <h2>Expérience & activités</h2>
+            <ul class="list">
+              <li>Montage et revente de PC gaming sur mesure</li>
+              <li>Relation client, conseil, négociation</li>
+              <li>Stage marketing dans une MedTech à l’international</li>
+              <li>BDE, bénévolat, ambassadeur ICN</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Contact</h2>
+            <p class="contact">
+              📍 Île-de-France (Paris)<br>
+              ✉️ <a href="mailto:zayyan.duong@icn-artem.com">zayyan.duong@icn-artem.com</a><br>
+              📞 <a href="tel:+33695569399">+33 6 95 56 93 99</a>
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="card-white">
+        <section class="section">
+          <h2>Social links</h2>
+          <ul class="social list-inline">
+  <li><a href="https://www.instagram.com/zayyan_dng/" target="_blank">Instagram</a></li>
+  <li><a href="https://www.linkedin.com/in/zayy%C3%A2n-duong/" target="_blank">LinkedIn</a></li>
+</ul>
+        </section>
+      </div>
+
+      <div class="card-white">
+        <img class="banner" id="banniere-picture" src="./images/banniere-photo.png" alt="Photo de bannière de Zayyân Duong">
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <p>© <span id="year"></span> Zayyân Duong</p>
+        <p class="footer__right">
+          <a href="mailto:zayyan.duong@icn-artem.com">zayyan.duong@icn-artem.com</a>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+  </body>
+</html>
